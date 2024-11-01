@@ -1,0 +1,167 @@
+.mycustommainmapwrapper {
+     width:100%;
+     margin:30px 0px 30px 0px;
+     box-shadow:1px 1px 1px 1px rgba(0,0,0,0.25);
+     position:relative;
+}
+ 
+
+.mycustommainmapwrapper:after {
+     content:"";
+     clear:both;
+}
+ 
+
+.mapbox .map {
+     display:block;
+     width:100%;
+}
+
+
+ .mapsidebar {
+     float:left;
+     width:20%;
+     height:420px;
+     background:#ffffff;
+   overflow:auto;
+     color:#000000 
+}
+
+
+ .mapsidebar .mpsidebartitle {
+     margin:0;
+     padding:7px 10px;
+     background:#ffffff;
+     color:#000000;
+     width:100%;
+     font-size:15px !important;
+     line-height:1 !important;
+     cursor:pointer;
+     font-family:Roboto, 'Noto Sans Devanagari UI', 'Noto Sans Bengali UI', 'Noto Sans Telugu UI', 'Noto Sans Tamil UI', 'Noto Sans Gujarati UI', 'Noto Sans Kannada UI', 'Noto Sans Malayalam UI', 'Noto Sans Gurmukhi UI', Arial, sans-serif;
+     font-weight:bold;
+     border-top:1px solid #cccccc 
+}
+ 
+
+.mapsidebar .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container {
+     padding:0;
+     padding-right:10px 
+}
+ 
+
+.mapsidebar .mCSB_container_wrapper {
+     margin-right:0;
+}
+ 
+
+.mapsidebar ul {
+     margin:0;
+     padding:10px 0px 10px 0px;
+}
+ 
+
+.mapsidebar ul li {
+     margin:0;
+     padding:0px 7px 0px 10px;
+     list-style:none;
+     border-bottom:none;
+     color:#8c8c8c;
+     font-size:14px;
+     text-decoration:none;
+     text-transform:capitalize;
+}
+
+
+ .mapsidebar ul li a {
+     color:#8c8c8c;
+     text-decoration:none;
+     box-shadow:none;
+}
+
+
+ .mapsidebar ul li a:hover {
+     color:#8c8c8c;
+}
+
+
+ .mapsidebar ul li span {
+     padding-right:5px;
+}
+ 
+
+.mapbottombar {
+     float:left;
+     width:100%;
+     background:#ffffff;
+     color:#fff;
+     margin:3px 0px 30px 0px;
+     height:190px;
+     overflow:auto;
+}
+ 
+
+.mapbottombar .detailbox {
+     float:left;
+     width:33.33%;
+     height:90px;
+     box-shadow:1px 1px 1px 1px rgba(0,0,0,0.25);
+     padding-top:8px;
+     padding-bottom:8px;
+     font-family:Roboto, 'Noto Sans Devanagari UI', 'Noto Sans Bengali UI', 'Noto Sans Telugu UI', 'Noto Sans Tamil UI', 'Noto Sans Gujarati UI', 'Noto Sans Kannada UI', 'Noto Sans Malayalam UI', 'Noto Sans Gurmukhi UI', Arial, sans-serif;
+}
+ 
+
+.mapbottombar .detailbox h3 {
+     margin:0px 0px 5px 0px;
+     color:#373737;
+     font-size:14px;
+     text-align:left;
+     padding-left:10px;
+     padding-right:10px;
+     font-weight:bold;
+     font-family:Roboto, 'Noto Sans Devanagari UI', 'Noto Sans Bengali UI', 'Noto Sans Telugu UI', 'Noto Sans Tamil UI', 'Noto Sans Gujarati UI', 'Noto Sans Kannada UI', 'Noto Sans Malayalam UI', 'Noto Sans Gurmukhi UI', Arial, sans-serif;
+}
+
+
+ .mapbottombar .detailbox h3 span {
+     color:#8c8c8c;
+     font-weight:bold;
+     font-family:Roboto, 'Noto Sans Devanagari UI', 'Noto Sans Bengali UI', 'Noto Sans Telugu UI', 'Noto Sans Tamil UI', 'Noto Sans Gujarati UI', 'Noto Sans Kannada UI', 'Noto Sans Malayalam UI', 'Noto Sans Gurmukhi UI', Arial, sans-serif;
+}
+ 
+
+.mapbottombar .detailbox address {
+     color:#000000;
+     text-align:left;
+     font-weight:bold;
+     padding-left:10px;
+     padding-right:10px;
+     font-size:13px;
+     font-family:Roboto, 'Noto Sans Devanagari UI', 'Noto Sans Bengali UI', 'Noto Sans Telugu UI', 'Noto Sans Tamil UI', 'Noto Sans Gujarati UI', 'Noto Sans Kannada UI', 'Noto Sans Malayalam UI', 'Noto Sans Gurmukhi UI', Arial, sans-serif;
+}
+ 
+
+.mapbottombar .detailbox address span {
+     color:#8c8c8c;
+     font-weight:normal;
+     font-family:Roboto, 'Noto Sans Devanagari UI', 'Noto Sans Bengali UI', 'Noto Sans Telugu UI', 'Noto Sans Tamil UI', 'Noto Sans Gujarati UI', 'Noto Sans Kannada UI', 'Noto Sans Malayalam UI', 'Noto Sans Gurmukhi UI', Arial, sans-serif;
+}
+
+
+/***responsive***/
+ @media screen and (max-width: 768px){
+     .mapsidebar ul li{
+        padding:0px;
+         font-size: 12px;
+    }
+    
+
+ .mapsidebar .mpsidebartitle{
+        font-size: 12px !important;
+        padding: 7px 1px;
+    }
+     .mapbottombar .detailbox{
+        width:100%;
+         height:100px
+    }
+}
